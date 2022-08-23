@@ -1,10 +1,9 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;    margin: 0;
     padding: 0;
 
 }
-.header {
+.header, .middle, .middle-2, .bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,16 +37,13 @@ a {
     padding: 15px 40px;
     border-radius: 5px;
 }
-.sec-2 .middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .middle .container {
     width: 70%;
 }
-.sec-2 h2 {
-    font-size: 40px;
+h2 {
+    font-size: 50px;
+    margin-top: 150px;
 }
 .sec-2 p {
     font-size: 18px;
@@ -75,4 +71,63 @@ hr {
     width: 80%;
     margin-bottom: 30px;
     color: gray;
+}
+
+.middle-2 .container {
+    width: 90%;
+}
+.middle-2 .boxes {
+    display: flex;
+    justify-content: center;
+}
+.middle-2 .box {
+    width: 350px;
+    height: 400px;
+    background: #f1f1f1;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+
+.box img {
+    margin-top: 50px;
+}
+h3 {
+    font-size: 25px;
+}
+.box-2 {
+    background: red;
+}
+
+.form {
+    background: rgb(255, 204, 204);
+    padding: 80px 0;
+}
+.form input {
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mail {
+    background-color: rgb(215, 224, 222);
+    padding: 20px 40px;
+}
+.btn {
+    background-color: rgb(255, 71, 71);
+    color: #fff;
+    padding: 20px 50px;
+}
+.footer {
+    text-align: center;
+    background: rgb(4, 8, 51);
+}
+.footer h2 {
+    color: rgb(255, 53, 53);
+    padding-top: 50px;
+}
+.footer p {
+    color: #f1f1f1;
+    padding-bottom: 50px;
 }
