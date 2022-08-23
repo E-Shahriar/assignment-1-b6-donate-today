@@ -3,7 +3,7 @@ body {
     padding: 0;
 
 }
-.header, .middle, .middle-2, .bottom {
+.header, .middle, .middle-2, .bottom, .gallary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,6 @@ hr {
 .middle-2 .box {
     width: 350px;
     height: 400px;
-    background: #f1f1f1;
     margin: 0 10px;
     border-radius: 10px;
     text-align: left;
@@ -96,10 +95,33 @@ hr {
 h3 {
     font-size: 25px;
 }
+.box-1 {
+    background-color: #f1f1f1;
+}
 .box-2 {
-    background: red;
+    background-color: #e4b7b7;
+}
+.box-3 {
+    background-color: #e9f9af;
 }
 
+
+.my-choice {
+    margin-top: 50px;
+}
+.my-choice .container {
+    width: 100%;
+}
+
+.gallary img {
+    width: 40%;
+    height: 350px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.gallary img:hover {
+    box-shadow: 5px 15px 20px 5px rgba(52, 48, 48, 0.808);}
 .form {
     background: rgb(255, 204, 204);
     padding: 80px 0;
@@ -124,7 +146,7 @@ h3 {
     background: rgb(4, 8, 51);
 }
 .footer h2 {
-    color: rgb(255, 53, 53);
+    color: rgb(245, 77, 77);
     padding-top: 50px;
 }
 .footer p {
